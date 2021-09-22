@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.universitybazaarsystem">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniversityBazaarSystem">
+        <activity android:name=".BuyNowPage"></activity>
+        <activity android:name=".ProductDetails" />
+        <activity android:name=".AddProductActivity" />
+        <activity android:name=".ClubsPage" />
+        <activity android:name=".PeoplePage" />
+        <activity android:name=".CommunityPage" />
+        <activity android:name=".BuySellPage" />
+        <activity android:name=".ProfilePage" />
+        <activity android:name=".ResetPasswordPage" />
+        <activity android:name=".ForgotPassordPage" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".ClubsListingPage" />
+        <activity android:name=".RegistrationActivity" />
+        <activity android:name=".ClubDetailsJoin" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
